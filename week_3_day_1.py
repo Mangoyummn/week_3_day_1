@@ -14,12 +14,34 @@
 
 
 
+#review 
+#crearting variables 
+#1.age
+age=25 #integer variable 
+# 2. name 
+name="John" # string variable 
+# 3. song 
+song="Happy Birthday" # string variable 
+#4. food 
+food="oranges" # string variable
+#5. number 
+number =1000 #integer variable 
+#concatenation __ + around your variables 
+print ("Once upon a time , there was a "+ str(age)+ " old coder named " + name + ".")
 
+print ('there was a number' + str(number) + " as well") 
+#put the number and age into a sentence 
+print ("She is " + str (age)+ " she is helping set up the towns "+ str (number )+ " year sport competetion ")
+date_of_birth=2021
+number2=123
+number3=123.456
+number4=123.33
+number5=4555
+print ( "In the year "+str(date_of_birth)+ ","+ str(number2)+"of cats where born"+str(number3) + str( number4)+ "was estimated to be the amount of kittens born in the town ."+ str(number5) + " kittens were born in the whole state" )
+print(f"the date of birth is{date_of_birth} and the number  is {number2} and the number is {number3} amd the number is {number4} 
+      and the number is {number5}" )
 
-
-
-
-
+print ( f" {name} liked to hum the {song} while coding .It was so annoying that thier teammate wpuld throw {food} until {name} stopped ")
 
 
 
@@ -102,13 +124,13 @@
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
+# list # this is a resrved word canot be used in python for a variable name
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -124,15 +146,15 @@
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
 
-# first_name
+# first_name   
 # lastName
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# one_variable
+# email_address
+# percentage
+# ilovecats
 
 
 
