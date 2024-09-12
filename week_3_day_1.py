@@ -268,7 +268,15 @@ print(round(num1))
 # # On to codehs.com
 
 
-
+num3=int(input ("Put in a number"))
+num4=int(input ("put in another number "))
+print (num3-num4)
+print (num3/num4)
+print ("the min of 3 and 5",min (3,5))
+print("the absolute value of 5 is", abs(5))
+print("the floor of 6.4 is",floor(6.4))
+print("the ceil of 3.7 is",ceil (3.7))
+print(5**4)
 
 
 
