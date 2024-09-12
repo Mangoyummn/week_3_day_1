@@ -14,34 +14,34 @@
 
 
 
-#review 
-#crearting variables 
-#1.age
-age=25 #integer variable 
-# 2. name 
-name="John" # string variable 
-# 3. song 
-song="Happy Birthday" # string variable 
-#4. food 
-food="oranges" # string variable
-#5. number 
-number =1000 #integer variable 
-#concatenation __ + around your variables 
-print ("Once upon a time , there was a "+ str(age)+ " old coder named " + name + ".")
+# #review 
+# #crearting variables 
+# #1.age
+# age=25 #integer variable 
+# # 2. name 
+# name="John" # string variable 
+# # 3. song 
+# song="Happy Birthday" # string variable 
+# #4. food 
+# food="oranges" # string variable
+# #5. number 
+# number =1000 #integer variable 
+# #concatenation __ + around your variables 
+# print ("Once upon a time , there was a "+ str(age)+ " old coder named " + name + ".")
 
-print ('there was a number' + str(number) + " as well") 
-#put the number and age into a sentence 
-print ("She is " + str (age)+ " she is helping set up the towns "+ str (number )+ " year sport competetion ")
-date_of_birth=2021
-number2=123
-number3=123.456
-number4=123.33
-number5=4555
-print ( "In the year "+str(date_of_birth)+ ","+ str(number2)+"of cats where born"+str(number3) + str( number4)+ "was estimated to be the amount of kittens born in the town ."+ str(number5) + " kittens were born in the whole state" )
-print(f"the date of birth is{date_of_birth} and the number  is {number2} and the number is {number3} amd the number is {number4} 
-      and the number is {number5}" )
+# print ('there was a number' + str(number) + " as well") 
+# #put the number and age into a sentence 
+# print ("She is " + str (age)+ " she is helping set up the towns "+ str (number )+ " year sport competetion ")
+# date_of_birth=2021
+# number2=123
+# number3=123.456
+# number4=123.33
+# number5=4555
+# print ( "In the year "+str(date_of_birth)+ ","+ str(number2)+"of cats where born"+str(number3) + str( number4)+ "was estimated to be the amount of kittens born in the town ."+ str(number5) + " kittens were born in the whole state" )
+# print(f"the date of birth is{date_of_birth} and the number  is {number2} and the number is {number3} amd the number is {number4} 
+#       and the number is {number5}" )
 
-print ( f" {name} liked to hum the {song} while coding .It was so annoying that thier teammate wpuld throw {food} until {name} stopped ")
+# print ( f" {name} liked to hum the {song} while coding .It was so annoying that thier teammate wpuld throw {food} until {name} stopped ")
 
 
 
@@ -189,24 +189,40 @@ print ( f" {name} liked to hum the {song} while coding .It was so annoying that 
 
 ##########################################################################################
 # #addition
+print(2+1)
 # #multiplication
+print(2*2)
 # #division
+print(6/2)
 # #modulo
+print(7%4) # remainder of 7 divided by 4
 # #powers
+print(2**3) #2 to the power of 3
 # #get the max and min of a number
+print ( " the max of 2 and 3 is",max ( 2,3) )
+print (" the min of 2 and 3 is ", min (2,3))
+ # min means lowest number 
+
 # #round a number
+print ("round 3.9 is ", round(3.9))
 # # absolute value
+ # absoulute value means the distacnce frpom zero 
+print("the absolute value of -3 is ",abs(3))
 # # order of operations
+print ( "2+10*10+3 is ", 2+10*10+3)
+# the order of operations is the same as in math
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print("the floor of 3.7 is", floor(3.7))
 # #ceil method
+print( "the ceil of 3.7 is", ceil(3.7))
 # #sqrt method
 
 
-
-
+print("the floor of 5.6 is", floor (5.6))
+print("the ceil of 8.9 is",ceil (8.9))
 
 
 
@@ -222,16 +238,22 @@ print ( f" {name} liked to hum the {song} while coding .It was so annoying that 
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+name=input ("what is your name ?")
+print("hello",name)
 # # basic math calculator
 # #ask the user for 2 numbers
+num1=int(input ( "enter a number"))
+num2=int(input("enter another number"))
 # # print out a statement where you:
 # # add them together
+print (num1 + num2)
 # #multiply
 # # find the max number
+print(max(num1,num2))
 # # find the remainder of the numbers
+print(num1 %num2)
 # #round one number
-
-
+print(round(num1))
 
 
 
